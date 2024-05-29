@@ -1,10 +1,7 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
 
 from pyrogram import Client, filters
 
-# AESTHETIC------------ https://telegram.me/Josprojects ------------ #
+# AESTHETIC------------ https://telegram.me/Deendayal_dhakad ------------ #
 
 def aesthetify(string):
     PRINTABLE_ASCII = range(0x21, 0x7f)
@@ -41,7 +38,7 @@ async def throw_dart(client, message):
     await client.send_dice(
         chat_id=message.chat.id,
         emoji=DART_E_MOJI,
-        disable_notification=False,
+        disable_notification=True,
         reply_to_message_id=rep_mesg_id
     )
 
@@ -61,7 +58,7 @@ async def roll_dice(client, message):
     await client.send_dice(
         chat_id=message.chat.id,
         emoji=DICE_E_MOJI,
-        disable_notification=False,
+        disable_notification=True,
         reply_to_message_id=rep_mesg_id
     )
 
@@ -80,7 +77,7 @@ async def luck_cownd(client, message):
     await client.send_dice(
         chat_id=message.chat.id,
         emoji=TRY_YOUR_LUCK,
-        disable_notification=False,
+        disable_notification=True,
         reply_to_message_id=rep_mesg_id
     )
 
@@ -100,7 +97,7 @@ async def roll_dice(client, message):
     await client.send_dice(
         chat_id=message.chat.id,
         emoji=GOAL_E_MOJI,
-        disable_notification=False,
+        disable_notification=True,
         reply_to_message_id=rep_mesg_id
     )
 
