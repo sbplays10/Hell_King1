@@ -1844,7 +1844,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "users":
         buttons = [
-            [InlineKeyboardButton("batch",)]
+            #[InlineKeyboardButton("batch",)]
             [
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='help')
             ]
