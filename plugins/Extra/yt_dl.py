@@ -4,7 +4,6 @@
 
 
 from __future__ import unicode_literals
-
 import os, requests, asyncio, math, time, wget
 from pyrogram import filters, Client
 from pyrogram.types import Message
@@ -48,7 +47,7 @@ async def song(client, message):
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
 
-        cap = "**BY›› [VJ NETWORKS™](https://t.me/vj_bots)**"
+        cap = "**BY›› [THE HELL KING™](https://t.me/The_hell_king_movie_group)**"
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
