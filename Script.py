@@ -109,17 +109,7 @@ Bʏ @Hell_King_69_Bot"""
 • /request - sᴇɴᴅ ᴀ Mᴏᴠɪᴇ/Sᴇʀɪᴇs ʀᴇᴏ̨ᴜᴇsᴛ ᴛᴏ ʙᴏᴛ ᴀᴅᴍɪɴs. ( ᴏɴʟʏ ᴡᴏʀᴋs ᴏɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ )
 • /plan - ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ ᴘʟᴀɴꜱ.
 • /myplan - ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄᴜʀʀᴜɴᴛ ᴘʟᴀɴ.
-•/song - Download any song [<code>example /song vaa vaathi song</code>]  
-•/telegraph - <code>Telegraph generator sen under 5MB video or photo I give telegraph link</code> 
-•/tts - <code>This command usage text to voice converter</code> 
-•/video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/example</code>]
-•/json - ʙᴏᴛ ʀᴇᴛᴜʀɴs ᴊsᴏɴ ꜰᴏʀ ᴀʟʟ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇs ᴡɪᴛʜ /json 
-•/tts - <b>/tts ᴄᴏɴᴠᴇʀᴛ ᴛᴇꜱᴛ ᴛᴏ ꜱᴩᴇᴇᴄʜ</b>
-•/font- This command usage stylish and cool font generator 
-•/genpassword - /genpassword ᴏʀ /genpw 𝟸𝟶
-•/share - <b>/share ﹛ ʏᴏᴜʀ ᴛᴇxᴛ ﹜
-•/stickerid - Reply To Any Sticker [/stickerid]
-• /ping - <b>ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴘɪɴɢ."""
+"""
 
     GROUP_TXT = """👋 ʜᴇʏ {},
 
