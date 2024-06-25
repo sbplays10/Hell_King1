@@ -60,14 +60,14 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-# DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://text1:text1@cluster0.0lnolxg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-# DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-# COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-
-DATABASE_URI = [DATABASE_URI if id_pattern.search(DATABASE_URI) else DATABASE_URI for DATABASE_URI in environ.get('DATABASE_URI', 'mongodb+srv://text1:text1@cluster0.0lnolxg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 mongodb+srv://subhadeepsamui79:v3REnnLOfITn2p8t@cluster0.4z3invg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 mongodb+srv://porn:porn@cluster0.yhugro9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').split()]
-# Define the database and collection names (assuming they are the same for all clients)
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://text1:text1@cluster0.0lnolxg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+
+# DATABASE_URI = [DATABASE_URI if id_pattern.search(DATABASE_URI) else DATABASE_URI for DATABASE_URI in environ.get('DATABASE_URI', 'mongodb+srv://text1:text1@cluster0.0lnolxg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 mongodb+srv://subhadeepsamui79:v3REnnLOfITn2p8t@cluster0.4z3invg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 mongodb+srv://porn:porn@cluster0.yhugro9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').split()]
+# Define the database and collection names (assuming they are the same for all clients)
+# DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+# COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 
 # Verify
