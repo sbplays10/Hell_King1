@@ -70,6 +70,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 
+CAPTION_LANGUAGES = ["Bhojpuri", "Bangla", "Bengali", "Tamil", "English", "Hindi", "Telugu", "Malayalam", "Kannada", "Marathi", "Punjabi", "Bengoli", "Gujrati", "Korean", "Gujarati", "Spanish", "French", "German", "Chinese", "Arabic", "Portuguese", "Russian", "Japanese", "Odia", "Assamese", "Urdu"]
+
+
+
 # Verify
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/the_hell_king_updates') # How to open tutorial link for verification
