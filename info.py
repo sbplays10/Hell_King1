@@ -22,9 +22,9 @@ def is_enabled(value, default):
 # BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID','27972068'))
-API_HASH = environ.get('API_HASH','6e7e2f5cdddba536b8e603b3155223c1')
-BOT_TOKEN = environ.get('BOT_TOKEN','6753180750:AAGbj5ItcH1VT_FEAvZBTruibtbC4g460E0')
+API_ID = int(environ.get('API_ID', '23291389'))
+API_HASH = environ.get('API_HASH', 'f2cd5ea2f572dd7442ebb57b3273fdfd')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6594152460:AAFsLjq199DCXBiGfaCnQxTgUW27UK_hPBw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -44,23 +44,23 @@ STREAM_API = (environ.get('STREAM_API', '9ea91a2c95f97bf82e4362fd37e45f3c8612064
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/the_hell_king_updates'))
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6075512585 5256724194').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002103062193 -1002056803358').split()] #Channel id for auto indexing ( make sure bot is admin )
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6045914761').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001938707264').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6075512585').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6075512585').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002089352638') #Channel / Group Id for force sub ( make sure bot is admin )
+auth_channel = environ.get('AUTH_CHANNEL', '-1001839529344') #Channel / Group Id for force sub ( make sure bot is admin )
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002070999511') # support group id ( make sure bot is admin )
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002118301913') # request channel id ( make sure bot is admin )
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001833179485') # support group id ( make sure bot is admin )
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001833179485') # request channel id ( make sure bot is admin )
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://text1:text1@cluster0.0lnolxg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://PmShortnerBot:PmShortnerBot@cluster0.7rkil0p.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -83,7 +83,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/the_hell_king_updates') #
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', '9ea91a2c95f97bf82e4362fd37e45f3c86120644')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002097066506').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "20")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
@@ -92,7 +92,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/the_hell_king_updates')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/the_hell_king_updates') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : DS')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002146616379')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001833179485')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/TheHellKingSupport') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -106,7 +106,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002105612934')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
@@ -148,7 +148,7 @@ else:
     URL = "http://{}/".format(FQDN)
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002107418598'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001833179485'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
